@@ -1,0 +1,53 @@
+a:hover {
+    color:green;
+}
+
+a:visited{
+    color:rgb(219, 30, 125);
+}
+
+a{
+    color:black;
+}
+
+h1{
+    font-family: 'Aboreto', cursive;
+}
+
+h2{
+    font-family: 'Aboreto', cursive;
+}
+
+
+/*head*/
+
+header{
+    /*background-image: url('pexels-asad-photo-maldives-457881.jpg'); 
+    background-position: center;*/
+    background-size: cover;
+    font-family: 'Aboreto', cursive;
+}
+.haut_de_page{
+    padding: 50px;
+    background-image: url('pexels-asad-photo-maldives-457881.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    animation: apparition 0.8s ease-out;
+}
+
+.container_head{
+    display:flex;
+    flex-direction: flex;
+    justify-content:space-between;
+    padding: 20px;
+    background-color:#abdbe3 ;
+    background-size: cover;
+}
+
+
+/*main*/

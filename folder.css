@@ -1,0 +1,132 @@
+a:hover {
+    color:green;
+
+}
+
+a:visited{
+    color:rgb(219, 30, 125);
+}
+
+a{
+    color:white;
+}
+
+h1{
+    font-family: 'Aboreto', cursive;
+    font-size: 2em ;
+}
+
+h2{
+    font-family: 'Aboreto', cursive;
+    font-size: 1em;
+    color:white;
+}
+
+h3{
+    color:white; 
+}
+
+p{
+    font-size: 1em;
+    color:white;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/*header*/
+
+header{
+    background-image: url('pexels-asad-photo-maldives-457881.jpg'); 
+    background-position: center;
+    background-size: cover;
+    font-family: 'Aboreto', cursive;
+}
+.haut_de_page{
+    padding: 50px;
+    /*background-image: url('pexels-asad-photo-maldives-457881.jpg');
+    background-position: center;*/
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    animation: apparition 0.8s ease-out;
+}
+
+.container_head{
+    display:flex;
+    flex-direction: flex;
+    justify-content:space-between;
+    padding: 20px;
+    background-color:#2c2f30 ;
+    background-size: cover;
+}
+
+/*header*/
+
+/*main*/
+
+main{
+    background-color:black ;
+    background-size: cover;
+}
+
+.type_objet{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*margin: 30px;*/
+    padding: 30px;
+}
+
+.title{
+    grid-column: 1/4;
+    border: 3px solid #5a4d4a ;
+}
+.objet1{
+    margin:auto;
+    grid-column: 1/1;
+    border: 3px solid #5a4d4a ;
+}
+.objet2{
+    margin:auto;
+    grid-column: 2/2;
+    border: 3px solid #5a4d4a ;
+}
+.objet3{
+    margin:auto;
+    grid-column: 3/3;
+    border: 3px solid #5a4d4a ;
+}
+/*footer*/
+
+.container_foot{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color:#2c2f30 ;
+    padding: 20px;
+    gap:1200px;
+}
+
+/*footer*/
+
+
+/*animations*/
+
+@keyframes apparition{
+    from{
+        opacity:0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}

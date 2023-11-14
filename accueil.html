@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Accueil</title>
+    <link href="accueil.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header>
+
+        <section class="haut_de_page">
+                <h1>MARIN LANEE</h1>
+                <h1>Accueil</h1>
+        </section>
+
+        <section>
+            
+            <div class="container_head">
+                <div><img src="images/logo.png" alt="logo du site de ML"/></div>
+                <div><a class="lien_pages"  href="accueil.html"> Accueil</a></div>
+                <div><a class="lien_pages"  href="..qui_suis-je/qui_suis-je.html">Qui suis-je?</a></div>
+                <div><a class="lien_pages"  href="palmarès.html">Palmarès</a></div>
+                <div><a class="lien_pages"  href="media.html">Médias</a></div>
+                <div><a class="lien_pages"  href="folder.html">Folder</a></div>
+                <div><a class="lien_pages"  href="partenaires.html">Partenaires</a></div>
+                <div><a class="lien_pages"  href="devenir_partenaire.html">Devenir partenaire</a></div>
+            </div>
+
+        </section>
+        
+    </header>
+
+    <main>
+
+        <div class="video">
+            <video width="100%" height="600px" autoplay loop>
+                <source src="C:\Users\robin\OneDrive\Bureau\drive_accueil.mp4" type=video/mp4>
+            </video>
+        </div>
+
+        <div class="container_main_general">
+
+            <div class="container_main_general portrait" ><img class="img_portrait" src="portrait.jpg" alt="portrait Marin"></div>
+
+            <div class="container_main_general texte">
+                <ul>
+                    <li>
+                        <h2>Présentation générale:</h2>
+                        <p>Je suis kayakiste et intelligent</p>
+                    </li>
+                    <li>
+                        <h2>Objectif de ce site</h2>
+                        <p>ce site est une façon pour moi de me faire mieux connaitre et trouver de nouveaux partenaires</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <h2>Découvrez...</h2>
+
+        <div class="container_main_second">
+
+            <div class="lien1"><a href="qui_suis_je.html">...mon histoire</a></div>
+            <div class="lien2"><a href="palmares.html">...mon palmarès</a></div>
+            <div class="lien3"><a href="media.html">...les articles et documentaires vidéos</a></div>
+
+            <a href="qui_suis_je.html"><div class="image1" ></div></a>
+            <a href="palmares.html"><div class="image2" ></div></a>
+            <a href="media.html"><div class="image3"></div></a>
+
+            <div class="lien1"><a href="folder.html">...des photos et vidéos</a></div>
+            <div class="lien2"><a href="partenaires.html">...mes partenaires</a></div>
+            <div class="lien3"><a href="devenir_partenaire.html">...devenez mon partenaire</a></div>
+
+            <a href="folder.html"><div class="image4"></div></a>
+            <a href="partenaires.html"><div class="image5" ></div></a>
+            <a href="devenir_partenaire.html"><div class="image6"></div></a>
+
+        </div>
+
+        <div class="reseaux">
+            <h2>Retrouvez moi sur les réseaux sociaux: </h2>
+            <a href="https://www.instagram.com/laneemarin/" target="_blank"><img class="img_resaux" src="instagram.png" alt="logo instagram"></a>  <!--lien enmène sur mon compte?-->
+            <a href="https://www.facebook.com/marin.lanee.94" target="_blank"><img class="img_resaux" src="facebook.png" alt="logo facebook"></a>
+        </div>
+
+        <div>
+
+            <form method="get" action="">
+                <fieldset>
+                    <legend>Contactez-moi!</legend>
+                    <label for="prenom nom">Prénom Nom:</label><input type="text" name="prenom nom" id="prenom nom" required><br>
+                    <label for="email">email:</label><input type="text" name="email" id ="email" required><br>
+                    <label for="pays">Pays:</label><input type="text" name="pays" id="pays"><br>
+                    <label for="objet">Objet:</label>
+                    <textarea type="text" name="objet" id="objet"></textarea><br>
+                    <label for="conseils">Des conseils pour améliorer mon site?</label>
+                    <textarea type="text" name="conseils" id="conseils"></textarea>
+                </fieldset>
+                <input type="submit" value="Envoyer" class="envoyer"/> 
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container_foot">
+            <div><img src="images/logo.png" alt="logo du site de ML"/></div>
+            <div>Robin Lanée</div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
+
